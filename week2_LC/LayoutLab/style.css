@@ -1,0 +1,61 @@
+<style type="text/css">
+
+    * { Box-sizing: Border-box; } 
+
+    .mainwrapper {
+        width: 800px;
+        background: green;
+        margin: 0 auto;
+    }
+
+    nav {
+        background: black;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100px;
+        position: relative;
+    }
+    
+    .container {
+        display: block;
+    }
+
+    .cf {
+        overflow: hidden;
+    }
+
+    .block1 {
+        float: left;
+        background: black;
+        padding-top: 20px;
+        width: 49%;
+        height: 450px;
+
+    }
+    .block2 {
+        float: left;
+        background: blue;
+        padding-top: 20px;
+        margin-left: 2%;
+        width: 49%;
+        height: 450px;
+    }
+  
+ .lower-block {
+        float: left;
+        background: black;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        width: 27%;
+        height: 100px;
+    }
+    
+
+ footer {
+    width: 100%;
+    background: black;
+    height: 100px;
+ }
+
+    
+</style>

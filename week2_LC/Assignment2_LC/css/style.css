@@ -1,0 +1,196 @@
+/*
+Project Name: Relaxr
+Client: Relaxr
+Author: Laura
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+ -moz-box-sizing: border-box; /* Firexfox */
+ -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+ box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+ content: ".";
+ display: block;
+ clear: both;
+ visibility: hidden;
+ line-height: 0;
+ height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+ color: #000;
+ font-size: 12px;
+ line-height: 1.4;
+ font-family: 'Open Sans', sans-serif;
+ background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+ background-size: cover;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+}
+
+header {
+}
+
+footer {
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+h1{
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 24px;
+  color: white;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 24px;
+  color: white;
+  padding: 50px;
+}
+
+h3{
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 24px;
+  color: #033048;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+.get-now {
+  background-color: #f9e42e;
+  font-weight: 800;
+  color: #033048;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border-color: none;
+  width: 13%;
+  height: 30px;
+  margin: 0 auto;
+  display: block;
+  /*  position: absolute;
+  top: 50%;
+  left: 50%;*/      
+  /*transform: translate(-50%, -50%);*/
+  text-align: center; 
+  font-size: 14px;
+}
+
+.benefits {
+  background-color: #f0efef;
+  width: 100%;
+  height: 45%;
+}
+
+p {
+  font-weight: 300;
+  font-size: 13px;
+  color: #606161;
+  padding-left: 20px;
+  padding-right: 40%;
+}
+
+ul {
+  font-weight: 300;
+  font-size: 13px;
+  color: #606161;
+  padding-left: 70px;
+  padding-right: 40%;
+  list-style: disc;
+  line-height: 20px;
+}
+
+.quote {
+  font-size: 18px;
+  font-weight: italic;
+  text-align: center;
+  line-height: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: white;
+}
+.author {
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  line-height: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: white;
+}
+
+.sign-up {
+  font-weight: 800;
+  color: white;
+  letter-spacing: 1px;
+  background-color: #033048;
+  border-radius: 5px;
+  border-color: none;
+  width: 20%;
+  height: 30px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+}
+
+.signup {
+  background: #f9e42e;
+  width: 100%;
+  padding: 3%;
+  margin: 0 auto;
+} 
+
+.social {
+  margin: 20px;
+}
+
+
+

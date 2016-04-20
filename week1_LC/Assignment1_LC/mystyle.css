@@ -1,0 +1,92 @@
+	body {
+		font-family: sans-serif;
+  		font-size: 18px;
+  		line-height: 1.5;
+  		margin: 40px;
+  		padding: 50px;
+  	}
+  	nav {
+        text-align: center;
+        font-family: Helvetica;
+		font-size: 15px;
+		font-weight: bold;
+    }		
+	.name {
+		text-align: center;
+	}
+	hr.thick {
+		width: 100%;
+		border-top: 3px solid #0c8bcc;
+	}
+	hr {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	hr.bottom {
+		width: 70%;
+		margin-right: 200px;
+		margin-top: 40px;
+	}
+	h1 {
+		font-family: Helvetica;
+		font-size: 25px;
+		font-weight: bold;
+		color: black;
+		padding-top: 0px;
+		padding-bottom: 20px;
+	}
+	h2 {
+		font-family: Helvetica;
+		font-size: 15px;
+		font-weight: bold;
+		color: #0c8bcc;
+	}
+	h2.portfolio {
+		font-family: Helvetica;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 20px;
+		color: #0c8bcc;
+	}
+	h1.portfolio {
+		font-family: Helvetica;
+		font-size: 22px;
+		font-weight: bold;
+		line-height: 10px;
+		color: #0c8bcc;
+	}
+	p {
+		font-family: Times New Roman;
+		font-size: 15px;
+		line-height: 25px;
+		margin-top: 10px;
+	}
+	p.social {
+		font-family: Helvetica;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	p.portfolio {
+		font-family: Helvetica;
+		font-size: 15px;
+		line-height: 0px;
+	}
+	.image {
+		float: right;
+		height: 170px;
+		padding-left: 40px;
+	}
+	h4 {
+		font-family: Helvetica;
+		font-size: 15px;
+		font-weight: bold;
+		display: inline;
+	}
+	a {
+		color: black;
+	}
+	ul {
+		line-height: 20px;
+	}
