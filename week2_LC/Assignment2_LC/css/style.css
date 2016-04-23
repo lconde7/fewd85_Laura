@@ -73,6 +73,7 @@ header {
 footer {
   text-align: center;
   padding: 50px;
+  background-color: #121212;
 }
 
 /******************************************
@@ -106,24 +107,18 @@ h3 {
   padding-bottom: 10px;
 }
 
-.get-now {
-  background-color: #f9e42e;
-  font-weight: 800;
-  color: #033048;
-  letter-spacing: 1px;
+.button-header {
+  background: #f9e42e;
   border-radius: 5px;
-  border-color: none;
   border: 0;
-  width: 13%;
-  height: 30px;
   margin: 0 auto;
+  padding: 10px;
   display: block;
-  /*  position: absolute;
-  top: 50%;
-  left: 50%;*/      
-  /*transform: translate(-50%, -50%);*/
+  color: #033048;
   text-align: center; 
+  font-weight: 800;
   font-size: 14px;
+  width: 20%
 }
 
 .benefits {
@@ -176,19 +171,18 @@ ul {
 }
 
 .sign-up {
-  font-weight: 800;
+  background: #033048;
+  border-radius: 5px;
+  border: 0;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
   color: white;
   letter-spacing: 1px;
-  background-color: #033048;
-  border-radius: 5px;
-  border-color: none;
-  border: 0;
-  width: 20%;
-  height: 30px;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
+  text-align: center; 
+  font-weight: 800;
   font-size: 12px;
+  width: 20%
 }
 
 .signup {
