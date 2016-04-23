@@ -66,10 +66,13 @@ body {
 }
 
 header {
+  margin-bottom: 150px;
+  margin-left: 20px;
 }
 
 footer {
   text-align: center;
+  padding: 50px;
 }
 
 /******************************************
@@ -94,14 +97,13 @@ h2 {
   padding: 50px;
 }
 
-h3{
+h3 {
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 24px;
   color: #033048;
   padding-left: 20px;
   padding-bottom: 10px;
-  padding-top: 30px;
 }
 
 .get-now {
@@ -126,7 +128,7 @@ h3{
 .benefits {
   background-color: #f0efef;
   width: 100%;
-  height: 45%;
+  padding: 50px;
 }
 
 p {
@@ -147,17 +149,23 @@ ul {
   line-height: 20px;
 }
 
+.full-quote{
+  margin: 50px;
+}
+
 .quote {
   font-size: 18px;
-  font-weight: italic;
+  font-style: italic;
+  font-weight: 300;
   text-align: center;
   line-height: 25px;
-  padding-left: 200px;
-  padding-right: 200px;
   color: white;
+  padding-left: 250px;
+  padding-right: 250px;
 }
+
 .author {
-  font-weight: 300;
+  font-weight: 600;
   font-size: 18px;
   text-align: center;
   line-height: 25px;
@@ -192,5 +200,26 @@ ul {
   margin: 20px;
 }
 
+.twitter {
+  height: 20px;
+  padding-right: 1%;
+}
+
+.facebook {
+  height: 20px;
+  padding-left: 1%;
+}
+
+.footernote {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f9e42e;
+}
+
+.copyright {
+  color: white;
+  font-size: 9px;
+  font-weight: 300;
+}
 
 
