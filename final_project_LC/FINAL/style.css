@@ -1,0 +1,311 @@
+@import url(http://db.onlinewebfonts.com/c/0656ab2c44f5fbd2be425f29266f2749?family=TheHandW00-Extrablack);
+
+@import url(http://db.onlinewebfonts.com/c/67951f1c28f091c26339aaf004733041?family=BoosterFYW01-Regular);
+
+
+* {
+  Box-sizing: Border-box;
+}
+
+html,
+body {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  font-size: 16px;
+  width: 100%;
+}
+
+.cf {
+  overflow: hidden;
+}
+
+
+/* HEADER START */
+
+
+/*BACKGROUND*/
+
+.formula_heading {
+  margin: 0 auto;
+  width: 85%;
+  color: white;
+}
+
+header {
+ height: 450px;
+ width: 100%;
+ background-color: #a5cd39;
+ padding-top: 1%;
+}
+
+/*COPY*/
+h2.formula_header {
+  padding: 0% 10% 0 2%;
+  text-align: left;
+  font-family: "TheHandW00-Extrablack";
+  font-size: 75px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+p.formula_introcopy {
+  padding: 0% 55% 1% 2%;
+  text-align: left;
+  line-height: 25px;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 16px;
+  margin-right: 80px;
+}
+
+/*TUB*/
+.tub_image {
+  margin: 0 auto;
+  position: absolute;
+  top: 9%;
+  padding-left: 35%;
+  margin-right: 20px;
+}
+
+/* BUTTONS */
+.button {
+  border-radius: 7px;
+  border: 0;
+  width: 300px;
+  clear: both;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px 15px;
+  text-decoration: none;
+  position: relative;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+/* END BUTTONS */
+/*END HEADER*/
+
+/*SECTION 1*/
+h3 {
+  text-align: center;
+  font-family: "TheHandW00-Extrablack";
+  font-size: 5em;
+  color: #a5cd39;
+  letter-spacing: 2px;
+  margin-bottom: 2%;
+}
+
+.formula_section1 {
+  margin: 0 auto;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+/*END SECTION1*/
+
+/*SECTION 2*/
+/*ICONS*/
+.formmula_icons{
+  background-color: #a5cd39;
+  height: 450px;
+}
+
+h4 {
+  color: white;
+  padding-top: 5%;
+}
+
+.formula {
+  display: inline-block;
+}
+
+.formmula_icons {
+  /*top right bottom left*/
+  padding: 1% 0% 9% 0%;
+}
+
+#icon1 {
+  padding-right: 4%;
+  cursor: pointer;
+}
+
+#icon2 {
+  padding-right: 4%;
+  cursor: pointer;
+}
+
+#icon3 {
+  padding-right: 4%;
+  cursor: pointer;
+}
+
+#icon4 {
+  cursor: pointer;
+}
+
+/*hidden fields*/
+.formula_hidden-content1 {
+  background-color: #fff;
+  width: 100%;
+  height: 250px; 
+  padding: 6% 5% 5% 5%;
+  margin-bottom: 4%;
+  border: 1px;
+  border-style: solid;
+  border-color: #cfcecb;
+}
+
+.formula_hidden-content2 {
+  background-color: #fff;
+  width: 100%;
+  height: 250px; 
+  padding: 6% 5% 5% 5%;
+  margin-bottom: 4%;
+  border: 1px;
+  border-style: solid;
+  border-color: #cfcecb;
+}
+
+.formula_hidden-content3 {
+  background-color: #fff;
+  width: 100%;
+  height: 250px; 
+  padding: 6% 5% 5% 5%;
+  margin-bottom: 4%;
+  border: 1px;
+  border-style: solid;
+  border-color: #cfcecb;
+}
+
+.formula_hidden-content4 {
+  background-color: #fff;
+  width: 100%;
+  height: 250px; 
+  padding: 6% 5% 5% 5%;
+  margin-bottom: 4%;
+  border: 1px;
+  border-style: solid;
+  border-color: #cfcecb;
+}
+
+.hidden1 {
+  display: none;
+}
+
+.hidden2 {
+  display: none;
+}
+
+.hidden3 {
+  display: none;
+}
+
+.hidden4 {
+  display: none;
+}
+
+h5 {
+  margin: 0;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 2em;
+  text-align: left;
+}
+
+.formula_hidden-copy {
+  font-family: "BoosterFYW01-Regular";
+  text-align: left;
+  padding: 0% 50% 0% 0%;
+}
+
+/* SECTION 3*/
+.formula_section3 {
+    padding-top: 10%;
+    color: gray;
+    /* max-width: 100%; */
+    /* width: 1000px; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+/*     position: absolute; */
+    /* padding-top: 15%; */
+}
+
+h4 {
+  text-align: center;
+  font-family: "TheHandW00-Extrablack";
+  font-size: 5em;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+p.formula_copy2 {
+  padding: 0% 23% 0% 23%;
+  text-align: center;
+  line-height: 25px;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 16px;
+}
+
+/*COMPARISON SECTION*/
+.comparison {
+  margin: 0 auto;
+  display: inline-block;
+  background-color: #a5cd39 ;
+  height: 450px;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.comparison_copy {
+  text-align: left;
+}
+
+h6 {
+  text-align: left;
+  font-family: "TheHandW00-Extrablack";
+  font-size: 5em;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+p.formula_copy3 {
+  padding: 0% 50% 0% 0%;
+  text-align: left;
+  line-height: 25px;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 16px;
+}
+
+svg {
+  width: 20%;
+  max-height: 440px;
+  min-width: 150px;
+  padding-top: 2%;
+}
+
+.cls-1,.cls-6 {
+  fill:#fff;
+}
+
+.cls-1,.cls-2,.cls-3,.cls-4,.cls-5 {
+  fill-rule:evenodd;
+}
+
+.cls-2,.cls-3,.cls-4,.cls-5{
+fill:#a5cd39;
+}
+
+.cls-3{
+opacity:0.17;
+}
+
+.cls-4{
+opacity:0.27;
+}
+
+.cls-5{
+opacity:0.36;
+}
