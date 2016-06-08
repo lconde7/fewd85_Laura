@@ -142,7 +142,7 @@ h4 {
 
 .formmula_icons {
   /*top right bottom left*/
-  padding: 1% 0% 35% 0%;
+  padding: 1% 0% 9% 0%;
 }
 
 #icon1 {
@@ -170,11 +170,8 @@ h4 {
 .x {
   text-align: right;
   margin-top: -20px;
+  color: #a5cd39;
 }
-
-a {
-    color: #a5cd39;
-  }
 
 .formula_hidden-content1 {
   background-color: #fff;
@@ -227,7 +224,39 @@ a {
   border-right: 60px solid transparent;
   border-bottom: 75px solid red;
   margin-top: -80px;
+/*   margin-left: 10%; */
+/*   display: none; */
 }
+
+/*.triangle-up2 {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid white;
+  margin-left: 10%;
+   display: none;  
+}
+
+.triangle-up3 {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid white;
+  margin-left: 10%;
+   display: none; 
+}
+
+.triangle-up4 {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid white;
+  margin-left: 10%;
+   display: none;  
+}*/
 
 .hidden{
   display: none;
@@ -272,66 +301,56 @@ p.formula_copy2 {
 }
 
 
-/* COMPARISON SECTION */
+/*COMPARISON SECTION*/
 
-div.comparison {
-  height: 450px;
-  width: 100%;
+.comparison {
+  margin: 0 auto;
+  display: block;
   background-color: #a5cd39;
+  height: 450px;
   margin-top: 5%;
+  width: 100%;
 }
 
-div.comparison_all {
-  margin: 0 auto;
-  color: white;
+.comparison_all {
   position: relative;
   width: 1200px;
+  margin: 0 auto;
 }
 
-/*COPY*/
-
-.comparison_copyall {
-  margin-left: 23%;
+.comparison_copy {
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+  width: 1200px;
+  left: 10%;
+  color: whi
 }
 
-.comparison_ing1 {
-  margin-left: 23%;
-}
-
-.comparison_ing2 {
-  margin-left: 23%;
-}
-
-.comparison_ing3 {
-  margin-left: 23%;
-}
-
-h2.comparison_header {
+h6 {
   margin: 0;
+  padding-top: 10%;
   text-align: left;
   font-family: "TheHandW00-Extrablack";
   font-size: 5em;
   letter-spacing: 2px;
-  padding-top: 14%;
 }
 
-p.comparison_introcopy {
+p.formula_copy3 {
+  padding: 0% 50% 0% 0%;
   text-align: left;
   line-height: 25px;
   font-family: "BoosterFYW01-Regular";
   font-size: 16px;
-  margin-right: 63%;
 }
 
 svg {
-  max-height: 450px;
-  max-width: 200px;
+  width: 20%;
+  max-height: 440px;
   min-width: 150px;
-  position: absolute;
   padding-top: 2%;
-  padding-bottom: 2%;
-  left: 58%;
-  display: block;
+  position: absolute;
+  left: 60%;
 }
 
 .cls-1,
@@ -365,6 +384,3 @@ svg {
 .cls-5 {
   opacity: 0.36;
 }
-
-
-
