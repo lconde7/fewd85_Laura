@@ -17,6 +17,10 @@ body {
   overflow: hidden;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
 
 /* HEADER START */
 
@@ -142,7 +146,7 @@ h4 {
 
 .formmula_icons {
   /*top right bottom left*/
-  padding: 1% 0% 35% 0%;
+  padding: 1% 0% 1% 0%;
 }
 
 #icon1 {
@@ -367,4 +371,142 @@ svg {
 }
 
 
+@media only screen and (max-width: 768px) {
 
+/* TEXT */
+div.formula_heading {
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  width: 768px;
+}
+
+img {
+    width: 85%;
+    height: auto;
+}
+
+.header_copyall {
+  margin-left: 3%;
+}
+
+h2.formula_header {
+  margin: 0;
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 2px;
+  padding-top: 2%;
+}
+
+
+p.formula_introcopy {
+  text-align: center;
+  line-height: 21px;
+  font-size: 14px;
+  margin-right: 67%;
+  margin-top: 10%;
+}
+
+.tub_image {
+  margin: 0 auto;
+  position: absolute;
+  left: 32%;
+  top: 28%;
+}
+
+p.formula_copy2 {
+  padding: 0% 18% 0% 18%;
+  text-align: center;
+  line-height: 21px;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 14px;
+}
+
+.formmula_icons {
+  background-color: #a5cd39;
+  height: 360px;
+}
+
+#circle1, #circle2, #circle3, #circle4 {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#icon1 {
+    margin: 0 auto;
+    margin-left: 0px;
+}
+
+#icon2 {
+    margin: 0 auto;
+    margin-left: -50px;
+}
+
+#icon3 {
+    margin: 0 auto;
+    margin-left: -50px;
+}
+
+#icon4 {
+    margin: 0 auto;
+    margin-left: -50px;
+}
+
+h3, h4 {
+  font-size: 4em;
+  letter-spacing: 1px;
+}
+
+h5 {
+  margin: 0;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 2em;
+  text-align: left;
+}
+
+
+
+/* BUTTON */
+ 
+.button {
+  border-radius: 7px;
+  border: 0;
+  width: 250px;
+  clear: both;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  position: relative;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-left: 2%;
+}
+
+
+.comparison_copyall {
+  margin-left: 15%;
+}
+
+h2.comparison_header {
+  font-size: 4em;
+  letter-spacing: 2px;
+}
+
+p.comparison_introcopy {
+  text-align: left;
+  line-height: 21px;
+  font-size: 14px;
+}
+
+div.comparison_all {
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  width: 768px;
+}
+}
