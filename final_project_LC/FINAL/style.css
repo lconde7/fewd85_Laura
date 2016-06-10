@@ -171,11 +171,25 @@ h4 {
 
 /*hidden fields*/
 
-.x {
+.x1 {
   text-align: right;
   margin-top: -20px;
 }
 
+.x2 {
+  text-align: right;
+  margin-top: -20px;
+}
+
+.x3 {
+  text-align: right;
+  margin-top: -20px;
+}
+
+.x4 {
+  text-align: right;
+  margin-top: -20px;
+}
 a {
     color: #a5cd39;
   }
@@ -227,10 +241,40 @@ a {
 .triangle-up {
   width: 0;
   height: 0;
+  margin: 0 auto;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
-  border-bottom: 75px solid red;
-  margin-top: -80px;
+  border-bottom: 75px solid white;
+  margin-top: 6%;
+}
+
+.triangle-up2 {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 75px solid white;
+  margin-top: 6%;
+}
+.triangle-up3 {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 75px solid white;
+  margin-top: 6%;
+}
+
+.triangle-up4 {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 75px solid white;
+  margin-top: 6%;
 }
 
 .hidden{

@@ -4,7 +4,7 @@ $(document).ready(function() {
     if ( $(this).hasClass('active') ){
       // If it is add our hidden Class
       $('.formula_hidden-content1').addClass('hidden');
-      $('.triangle-up').removeClass('hidden');
+      $('.triangle-up').addClass('hidden');
       // Then remove the active class
       $(this).removeClass('active');
     }
@@ -13,9 +13,9 @@ $(document).ready(function() {
       $(this).addClass('active')
       // Hide any open siblings
       $('.formula_hidden-content1').siblings().addClass('hidden');
+      $('.triangle-up').removeClass('hidden');
       // then show our formula
       $('.formula_hidden-content1').removeClass('hidden');
-      $('.triangle-up').removeClass('hidden');
 }
   });
 
@@ -25,7 +25,7 @@ $(document).ready(function() {
     if ( $(this).hasClass('active') ){
       // If it is add our hidden Class
       $('.formula_hidden-content2').addClass('hidden');
-      $('.triangle-up').addClass('hidden');
+      $('.triangle-up2').addClass('hidden');
       // Then remove the active class
       $(this).removeClass('active');
     }
@@ -34,9 +34,9 @@ $(document).ready(function() {
       $(this).addClass('active')
       // Hide any open siblings
       $('.formula_hidden-content2').siblings().addClass('hidden');
+      $('.triangle-up2').removeClass('hidden')
       // then show our formula
       $('.formula_hidden-content2').removeClass('hidden');
-      $('.triangle-up').removeClass('hidden')
     }
   });
 
@@ -46,7 +46,7 @@ $(document).ready(function() {
     if ( $(this).hasClass('active') ){
       // If it is add our hidden Class
       $('.formula_hidden-content3').addClass('hidden');
-      $('.triangle-up').addClass('hidden');
+      $('.triangle-up3').addClass('hidden');
       // Then remove the active class
       $(this).removeClass('active');
     }
@@ -55,9 +55,9 @@ $(document).ready(function() {
       $(this).addClass('active')
       // Hide any open siblings
       $('.formula_hidden-content3').siblings().addClass('hidden');
+      $('.triangle-up3').removeClass('hidden')
       // then show our formula
       $('.formula_hidden-content3').removeClass('hidden');
-      $('.triangle-up').removeClass('hidden')
     }
   });
 
@@ -67,7 +67,7 @@ $(document).ready(function() {
     if ( $(this).hasClass('active') ){
       // If it is add our hidden Class
       $('.formula_hidden-content4').addClass('hidden');
-      $('.triangle-up').addClass('hidden');
+      $('.triangle-up4').addClass('hidden');
       // Then remove the active class
       $(this).removeClass('active');
     }
@@ -76,9 +76,9 @@ $(document).ready(function() {
       $(this).addClass('active')
       // Hide any open siblings
       $('.formula_hidden-content4').siblings().addClass('hidden');
+      $('.triangle-up4').removeClass('hidden');
       // then show our formula
       $('.formula_hidden-content4').removeClass('hidden');
-      $('.triangle-up').removeClass('hidden')
     }
    });
 
@@ -86,12 +86,39 @@ $(document).ready(function() {
     //alert('YAY!');
   //}); 
 
-  $(".cls-3").click(function() {
+$(".x1").click(function() {
+      $(this).parent().hide();
+      $('.triangle-up').addClass('hidden');
+      event.preventDefault();
+}
+  );
+
+$(".x2").click(function() {
+      $(this).parent().hide();
+      $('.triangle-up2').addClass('hidden');
+      event.preventDefault();
+}
+  );
+
+$(".x3").click(function() {
+      $(this).parent().hide();
+      $('.triangle-up3').addClass('hidden');
+      event.preventDefault();
+}
+  );
+
+$(".x4").click(function() {
+      $(this).parent().hide();
+      $('.triangle-up4').addClass('hidden');
+      event.preventDefault();
+}
+  );
+
+    $(".cls-3").click(function() {
     // First check to see if our current selection is active
     if ( $(this).hasClass('active') ){
       // If it is add our hidden Class
       $('.comparison_ing3').addClass('hidden');
-      $('#_Layer_1').addClass('active');
       // Then remove the active class
       $(this).removeClass('active');
     }
@@ -100,7 +127,6 @@ $(document).ready(function() {
       $(this).addClass('active')
       // Hide any open siblings
       $('.comparison_ing3').siblings().addClass('hidden');
-      $('#_Layer_1').addClass('active');
       // then show our formula
       $('.comparison_ing3').removeClass('hidden');
 }
@@ -111,7 +137,6 @@ $(".cls-4").click(function() {
     if ( $(this).hasClass('active') ){
       // If it is add our hidden Class
       $('.comparison_ing2').addClass('hidden');
-      $('#_Layer_1').addClass('active');
       // Then remove the active class
       $(this).removeClass('active');
     }
@@ -120,7 +145,6 @@ $(".cls-4").click(function() {
       $(this).addClass('active')
       // Hide any open siblings
       $('.comparison_ing2').siblings().addClass('hidden');
-      $('#_Layer_1').addClass('active');
       // then show our formula
       $('.comparison_ing2').removeClass('hidden');
 }
@@ -131,7 +155,6 @@ $(".cls-5").click(function() {
     if ( $(this).hasClass('active') ){
       // If it is add our hidden Class
       $('.comparison_ing1').addClass('hidden');
-      $('#_Layer_1').addClass('active');
       // Then remove the active class
       $(this).removeClass('active');
       
@@ -142,17 +165,11 @@ $(".cls-5").click(function() {
       $(this).addClass('active')
       // Hide any open siblings
       $('.comparison_ing1').siblings().addClass('hidden');
-      $('#_Layer_1').addClass('active');
       // then show our formula
       $('.comparison_ing1').removeClass('hidden');
 }
   });
 
-
-$(".x").click(function() {
-      $(this).parent().hide();
-}
-  );
 
 
 });
