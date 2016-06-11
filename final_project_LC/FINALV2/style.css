@@ -1,0 +1,714 @@
+@import url(http://db.onlinewebfonts.com/c/0656ab2c44f5fbd2be425f29266f2749?family=TheHandW00-Extrablack);
+@import url(http://db.onlinewebfonts.com/c/67951f1c28f091c26339aaf004733041?family=BoosterFYW01-Regular);
+* {
+  Box-sizing: Border-box;
+}
+
+html,
+body {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  font-size: 16px;
+  width: 100%;
+}
+
+.cf {
+  overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* HEADER START */
+
+
+/*BACKGROUND*/
+
+header {
+  height: 450px;
+  width: 100%;
+  background-color: #a5cd39;
+  padding-top: 5%;
+}
+
+div.formula_heading {
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  width: 1200px;
+}
+
+
+/*COPY*/
+
+.header_copyall {
+  margin-left: 6%;
+}
+
+h2.formula_header {
+  margin: 0;
+  text-align: left;
+  font-family: "TheHandW00-Extrablack";
+  font-size: 5em;
+  letter-spacing: 2px;
+  padding-top: 2%;
+}
+
+p.formula_introcopy {
+  text-align: left;
+  line-height: 25px;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 16px;
+  margin-right: 63%;
+}
+
+
+/*TUB*/
+
+.tub_image {
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+}
+
+
+/* BUTTONS */
+
+.button {
+  border-radius: 7px;
+  border: 0;
+  width: 300px;
+  clear: both;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  position: relative;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-left: 5%;
+}
+
+
+/* END BUTTONS */
+
+
+/*END HEADER*/
+
+
+/*SECTION 1*/
+
+h3 {
+  text-align: center;
+  font-family: "TheHandW00-Extrablack";
+  font-size: 5em;
+  color: #a5cd39;
+  letter-spacing: 2px;
+  margin-bottom: 2%;
+}
+
+.formula_section1 {
+  margin: 0 auto;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+
+
+/*END SECTION1*/
+
+
+/*SECTION 2*/
+
+
+/*ICONS*/
+
+.formmula_icons {
+  background-color: #a5cd39;
+  height: 450px;
+}
+
+h4 {
+  color: white;
+  padding-top: 5%;
+}
+
+.formula {
+  display: inline-block;
+}
+
+.formmula_icons {
+  /*top right bottom left*/
+  padding: 1% 0% 1% 0%;
+}
+
+#icon1 {
+  padding-right: 4%;
+  cursor: pointer;
+}
+
+#icon2 {
+  padding-right: 4%;
+  cursor: pointer;
+}
+
+#icon3 {
+  padding-right: 4%;
+  cursor: pointer;
+}
+
+#icon4 {
+  cursor: pointer;
+}
+
+
+/*hidden fields*/
+
+.x1 {
+  text-align: right;
+  margin-top: -20px;
+}
+
+.x2 {
+  text-align: right;
+  margin-top: -20px;
+}
+
+.x3 {
+  text-align: right;
+  margin-top: -20px;
+}
+
+.x4 {
+  text-align: right;
+  margin-top: -20px;
+}
+a {
+    color: #a5cd39;
+  }
+
+.formula_hidden-content1 {
+  background-color: #fff;
+  width: 100%;
+  height: 250px;
+  padding: 6% 5% 5% 5%;
+  margin-bottom: 4%;
+  border-bottom: 15px solid #a5cd39;
+  border-left: 15px solid #a5cd39;
+  border-right: 15px solid #a5cd39;
+}
+
+.formula_hidden-content2 {
+  background-color: #fff;
+  width: 100%;
+  height: 250px;
+  padding: 6% 5% 5% 5%;
+  margin-bottom: 4%;
+  border-bottom: 15px solid #a5cd39;
+  border-left: 15px solid #a5cd39;
+  border-right: 15px solid #a5cd39;
+}
+
+.formula_hidden-content3 {
+  background-color: #fff;
+  width: 100%;
+  height: 250px;
+  padding: 6% 5% 5% 5%;
+  margin-bottom: 4%;
+  border-bottom: 15px solid #a5cd39;
+  border-left: 15px solid #a5cd39;
+  border-right: 15px solid #a5cd39;
+}
+
+.formula_hidden-content4 {
+  background-color: #fff;
+  width: 100%;
+  height: 250px;
+  padding: 6% 5% 5% 5%;
+  margin-bottom: 4%;
+  border-bottom: 15px solid #a5cd39;
+  border-left: 15px solid #a5cd39;
+  border-right: 15px solid #a5cd39;
+}
+
+.triangle-up, .triangle-up2, .triangle-up3, .triangle-up4 {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 75px solid white;
+  margin-top: 6%;
+}
+
+.hidden {
+  display: none;
+}
+
+h5 {
+  margin: 0;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 2em;
+  text-align: left;
+}
+
+.formula_hidden-copy {
+  font-family: "BoosterFYW01-Regular";
+  text-align: left;
+  padding: 0% 50% 0% 0%;
+}
+
+
+/* SECTION 3*/
+
+.formula_section3 {
+  padding-top: 10%;
+  color: gray;
+}
+
+h4 {
+  text-align: center;
+  font-family: "TheHandW00-Extrablack";
+  font-size: 5em;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+p.formula_copy2 {
+  padding: 0% 23% 0% 23%;
+  text-align: center;
+  line-height: 25px;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 16px;
+}
+
+
+/* COMPARISON SECTION */
+
+div.comparison {
+  height: 450px;
+  width: 100%;
+  background-color: #a5cd39;
+  margin-top: 5%;
+}
+
+div.comparison_all {
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  width: 1200px;
+}
+
+/*COPY*/
+
+.comparison_copyall {
+  margin-left: 23%;
+}
+
+.comparison_ing3, .comparison_ing2, .comparison_ing1 {
+  margin-left: 23%;
+}
+
+h2.comparison_header {
+  margin: 0;
+  text-align: left;
+  font-family: "TheHandW00-Extrablack";
+  font-size: 5em;
+  letter-spacing: 2px;
+  padding-top: 14%;
+}
+
+p.comparison_introcopy {
+  text-align: left;
+  line-height: 25px;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 16px;
+  margin-right: 63%;
+}
+
+svg {
+  max-height: 450px;
+  max-width: 200px;
+  min-width: 150px;
+  position: absolute;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  left: 58%;
+  display: block;
+}
+
+.cls-1,
+.cls-6 {
+  fill: #fff;
+}
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5 {
+  fill-rule: evenodd;
+}
+
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5 {
+  fill: #a5cd39;
+}
+
+.cls-3 {
+  opacity: 0.17;
+}
+
+.cls-4 {
+  opacity: 0.27;
+}
+
+.cls-5 {
+  opacity: 0.36;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+/* TEXT */
+div.formula_heading {
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  width: 768px;
+}
+
+img {
+    width: 85%;
+    height: auto;
+}
+
+.header_copyall {
+  margin-left: 3%;
+}
+
+h2.formula_header {
+  margin: 0;
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 2px;
+  padding-top: 2%;
+}
+
+
+p.formula_introcopy {
+  text-align: center;
+  line-height: 21px;
+  font-size: 14px;
+  margin-right: 67%;
+  margin-top: 10%;
+}
+
+.tub_image {
+  margin: 0 auto;
+  position: absolute;
+  left: 32%;
+  top: 28%;
+}
+
+p.formula_copy2 {
+  padding: 0% 18% 0% 18%;
+  text-align: center;
+  line-height: 21px;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 14px;
+}
+
+.formmula_icons {
+  background-color: #a5cd39;
+  height: 360px;
+}
+
+#circle1, #circle2, #circle3, #circle4 {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#icon1 {
+    margin: 0 auto;
+    margin-left: 0px;
+}
+
+#icon2, #icon3, #icon4 {
+    margin: 0 auto;
+    margin-left: -50px;
+}
+
+h3, h4 {
+  font-size: 4em;
+  letter-spacing: 1px;
+}
+
+h5 {
+  margin: 0;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 2em;
+  text-align: left;
+}
+
+
+
+/* BUTTON */
+ 
+.button {
+  border-radius: 7px;
+  border: 0;
+  width: 250px;
+  clear: both;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  position: relative;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-left: 2%;
+}
+
+
+.comparison_copyall {
+  margin-left: 15%;
+}
+
+h2.comparison_header {
+  font-size: 4em;
+  letter-spacing: 2px;
+}
+
+p.comparison_introcopy {
+  text-align: left;
+  line-height: 21px;
+  font-size: 14px;
+}
+
+div.comparison_all {
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  width: 768px;
+}
+}
+
+
+@media only screen and (max-width: 480px) {
+
+header {
+  height: 530px;
+  width: 100%;
+  background-color: #a5cd39;
+  padding-top: 5%;
+}
+
+/* TEXT */
+div.formula_heading {
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  width: 320px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header_copyall {
+  margin-left: 3%;
+}
+
+h2.formula_header {
+  margin: 0;
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 2px;
+  padding-top: 2%;
+}
+
+
+p.formula_introcopy {
+  text-align: center;
+  line-height: 21px;
+  font-size: 14px;
+  margin-right: 0%;
+  margin-top: 10%;
+}
+
+.tub_image {
+  margin: 0 auto;
+  position: absolute;
+  left: 0%;
+  top: 105%;
+}
+
+p.formula_copy2 {
+  padding: 0% 10% 0% 10%;
+  text-align: center;
+  line-height: 21px;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 14px;
+}
+
+.formmula_icons {
+  background-color: #a5cd39;
+  height: 500px;
+}
+
+#circle1, #circle2, #circle3, #circle4 {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#icon1 {
+    margin: 0 auto;
+    margin-left: 0px;
+}
+
+#icon2 {
+    margin: 0 auto;
+    margin-left: -50px;
+}
+
+#icon3 {
+    margin: 0 auto;
+    margin-left: -10px;
+}
+
+#icon4 {
+    margin: 0 auto;
+    margin-left: -50px;
+}
+
+h3, h4 {
+  font-size: 4em;
+  letter-spacing: 1px;
+}
+
+
+/* BUTTON */
+ 
+.button {
+  border-radius: 7px;
+  border: 0;
+  width: 250px;
+  clear: both;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  position: relative;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-left: 7%;
+}
+
+div.comparison {
+  height: 700px;
+  width: 100%;
+  background-color: #a5cd39;
+  margin-top: 10%;
+}
+
+div.comparison_all {
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  width: 320px;
+}
+
+/*COPY*/
+
+.comparison_copyall, .comparison_ing3, .comparison_ing2, .comparison_ing1 {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+h2.comparison_header {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "TheHandW00-Extrablack";
+  font-size: 4em;
+  letter-spacing: 1px;
+  padding-top: 14%;
+}
+
+p.comparison_introcopy {
+  text-align: center;
+  line-height: 21px;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 14px;
+  margin-right: 0%;
+  margin-top: 155%;
+}
+
+h5 {
+  margin: 0;
+  font-family: "BoosterFYW01-Regular";
+  font-size: 2em;
+  text-align: left;
+  margin-top: 8%;
+}
+
+.formula_hidden-copy {
+  font-family: "BoosterFYW01-Regular";
+  text-align: left;
+  padding: 0% 20% 0% 0%;
+}
+
+svg {
+  margin: 0 auto;
+  max-height: 450px;
+  max-width: 200px;
+  min-width: 150px;
+  position: absolute;
+  margin-top: 39%;
+  right: 20%;
+  left: 20%;
+}
+
+.triangle-up, .triangle-up2, .triangle-up3, .triangle-up4 {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 75px solid white;
+  margin-top: 6%;
+}
+
+.formula_hidden-content1, .formula_hidden-content2 {
+  background-color: #fff;
+  width: 100%;
+  height: 250px;
+  padding: 6% 5% 5% 5%;
+  margin-bottom: 4%;
+  border-bottom: 15px solid #a5cd39;
+  border-left: 15px solid #a5cd39;
+  border-right: 15px solid #a5cd39;
+  margin-top: -140;
+}
+
+}
